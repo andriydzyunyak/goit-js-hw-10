@@ -22,16 +22,48 @@ img {
   display: block;
   width: 40px;
   height: 20px;
- margin-right: 10px;
+  margin-right: 10px;
 }
 
 .country-list {
+  margin: 0;
+  padding: 0;
+}
+
+.country-item {
   list-style: none;
-  padding-left: 0;
+  margin-bottom: 20px;
+}
+
+.country-name {
+  margin: 0;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.country-title {
+  display: flex;
+  align-items: center; 
+  font-weight: bold;
+  font-size: 40px;
+  margin: 0;
+}
+
+.country-prop {
+  margin: 0;
+  margin-bottom: 20px;
+  font-weight: bold;
+  font-size: 20px
+}
+
+.country-prop-value {
+  padding-left: 5px;
+  font-weight: 500;
+  font-size: 20px
 }
 
 .country-shortinfo {
   display: flex;
-  align-items: center;
-  
+  align-items: center; 
+  margin-bottom: 20px;
 }
